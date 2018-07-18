@@ -1,9 +1,10 @@
 import re
 
-geo = [['latitude','longitude']]
-
-with open('../Desktop/Dropbox/loc.txt','r') as fl:
+with open('../Desktop/facebook-mindau/location_history/your_location_history.html','r') as fl:
     for line in fl:
-        geo.append(re.findall(r'[+-]?\d+\.\d+',line))
+        geo=re.findall(r'[+-]?\d+\.\d+,\s[+-]?\d+\.\d+',line)
 
-print(geo)
+with open('../Desktop/file.txt','w') as coord:
+    for i in range(len(geo)):
+        lat, long = geo[i].split(sep=', ')
+        coord.write(lat+' '+long+'\n')
