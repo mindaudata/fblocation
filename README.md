@@ -14,3 +14,8 @@ http://localhost:5050
 
 
 Upload 'your_location_history.html'.
+
+
+
+![alt text](tracked.png "sample")
+
