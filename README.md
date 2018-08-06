@@ -17,5 +17,5 @@ Upload 'your_location_history.html'.
 
 
 
-![](tracked.png)
+![](tracked.png){width="200px"}
 
