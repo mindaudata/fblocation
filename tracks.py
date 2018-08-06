@@ -16,7 +16,6 @@ def tracked():
         if fbfile.filename == 'your_location_history.html':
             fbfile.save(secure_filename('upload'))
             coords = get_coords('upload')
-        print(coords)
         create_map(coords)
     return render_template('tracked.html')
 
