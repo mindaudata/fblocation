@@ -11,11 +11,9 @@ def get_coords(fb_file):
                 la, lo = findings[i].split(sep=', ')
                 df = df.append({'lat': la, 'lon': lo}, ignore_index=True)
     return df
-# print(get_coords('your_location_history.html'))
 
 
 import folium
-
 
 def create_map(df):
     map = folium.Map(location=[54.7037527, 25.2837174],
