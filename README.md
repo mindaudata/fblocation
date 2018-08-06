@@ -15,7 +15,4 @@ http://localhost:5050
 
 Upload 'your_location_history.html'.
 
-
-
-![](tracked.png){ width=50% }
-<img src="tracked.png" width="150"/>
+<img src="tracked.png" width="250"/>
