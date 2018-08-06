@@ -18,4 +18,4 @@ Upload 'your_location_history.html'.
 
 
 ![](tracked.png){ width=50% }
-
+<img src="tracked.png" width="150"/>
